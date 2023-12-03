@@ -22,6 +22,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Spotify Clone</title>
+    <style>
+        .white-bold {
+      font-weight: bold;
+    }
+    </style>
 </head>
 <body>
     <div class="main">
@@ -32,7 +37,8 @@
         <div class="nav">
             <a href="#home"><i class="fa-solid fa-house "></i>Home</a>
             <a href="#search"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
-            <a href="#library"><img src="./Asserts/Frame (2).svg">Your Library</a>
+            <a href="#library" id="ylb"><img src="./Asserts/Frame (2).svg" >Your Library</a>
+            <a href="premium"><i class="fa-brands fa-spotify" id="prm"></i>Premium</a>
         </div>
 
         <div class="play">
@@ -44,12 +50,12 @@
     </div>
        <div class="hero">
        <div class="dashboard">
-        <div><img src="./Asserts/스크린샷 2021-03-16 오후 4.04 2.svg"></div>
+        <div><img src="./Asserts/스크린샷 2021-03-16 오후 4.04 2.svg" id="popr"></div>
         <div id="hero1">
         <p>PLAYLIST</p>
         <p id="h1">Pop Right Now</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
-        <p>Spotify.860,305 likes.100 songs, 5 hr 5 min</p>
+        <p><p class="white-bold">Spotify</p>.860,305 likes.100 songs, 5 hr 5 min</p>
         </div>
        </div>
        <div class="line1"><a href="#"><img src="./Asserts/thumb_play.svg"></a><i id="bigh"class="fa-regular fa-heart fa-2x "></i><i id="dots" class="fa-solid fa-ellipsis fa-2x"></i></div>
@@ -226,11 +232,11 @@
             </div>
             <div id="dur">
                 <div id="pbt">
-                <a href="#"><i class="fa-solid fa-shuffle"></i></a>
-                <a href="#"><i class="fa-solid fa-forward-step fa-rotate-180 "></i></a>
+                <a href="#"><i class="fa-solid fa-shuffle" id="one"></i></a>
+                <a href="#"><i class="fa-solid fa-forward-step fa-rotate-180 " id="one"></i></a>
                 <a href="#"><i class="fa-solid fa-circle-play fa-2x"></i></a>
-                <a href="#"><i class="fa-solid fa-forward-step "></i></a>
-                <a href="#"><i class="fa-solid fa-repeat"></i></a>
+                <a href="#"><i class="fa-solid fa-forward-step " id="one"></i></a>
+                <a href="#"><i class="fa-solid fa-repeat" id="one"></i></a>
                 </div>
                 <div id="run">
                     <span>0:00</span>
